@@ -1,0 +1,24 @@
+qa_pairs:
+  - id: 1
+    category: "Factual Recall"
+    question: "What was the name of the magical kingdom in the story?"
+    answer: "The magical kingdom was called Luminara."
+    
+  - id: 2
+    category: "Relationship Understanding"
+    question: "What was Emmanuel's relationship with the royal family, and how long had it existed?"
+    answer: "Emmanuel was King Aldrich's trusted advisor for 30 years and later became a mentor and guide to the five princes. He was especially close to John, the middle brother, with whom he spent time discussing wisdom in the castle's library."
+    
+  # - id: 3
+  #   category: "Complex Understanding"
+  #   question: "What role did the setting of Salvation Fields play in the story's climax, and why might it be symbolically important?"
+  #   answer: "Salvation Fields was described as the prophesied location for an important battle, featuring vast green fields with white flowers that glowed in moonlight. Its name and the prophecy surrounding it symbolically represent the brothers' fight for redemption and justice, while the glowing white flowers might symbolize hope and purity of purpose."
+
+metadata:
+  total_questions: 3
+  categories:
+    - Factual Recall
+    - Relationship Understanding
+    - Complex Understanding
+  purpose: "RAG System Evaluation"
+  source_document: "story_1.txt" 

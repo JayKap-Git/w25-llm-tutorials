@@ -1,0 +1,66 @@
+qa_pairs:
+  - id: 1
+    category: "Factual Recall"
+    question: "What was the name of the magical kingdom in the story?"
+    answer: "The magical kingdom was called Luminara."
+    
+  - id: 2
+    category: "Factual Recall"
+    question: "Who were the five brothers, and what were their special skills or characteristics?"
+    answer: |
+      The five brothers were:
+      - Michael (oldest): Always tried to do what was right, helped farmers with harvests
+      - Luke: Smart at planning battles and reading maps
+      - Matthew: Good at solving arguments, had a calming voice
+      - John: Kind and focused on doing good, helped in village hospitals
+      - Peter: Brave in battle and excellent horseman
+    
+  - id: 3
+    category: "Factual Recall"
+    question: "What happened to King Aldrich?"
+    answer: "King Aldrich disappeared mysteriously on a stormy night with purple lightning and howling winds. People whispered that dark magic might have been involved, with reports of shadowy figures climbing castle walls and strange lights in the royal chambers."
+    
+  - id: 4
+    category: "Relationship Understanding"
+    question: "What was Emmanuel's relationship with the royal family, and how long had it existed?"
+    answer: "Emmanuel was King Aldrich's trusted advisor for 30 years and later became a mentor and guide to the five princes. He was especially close to John, the middle brother, with whom he spent time discussing wisdom in the castle's library."
+    
+  - id: 5
+    category: "Relationship Understanding"
+    question: "Who was Alexander, and what was his role in the conflict?"
+    answer: "Alexander was the leader of the forty jealous cousins who took over the kingdom. He was described as tall and cruel, with eyes that burned like fire and a laugh that made children cry. He led the opposition against the five brothers and refused all peace offerings."
+    
+  - id: 6
+    category: "Inference"
+    question: "What moral lessons does the story convey?"
+    answer: |
+      The story conveys several moral lessons:
+      - The importance of fighting for what's right rather than personal gain
+      - That internal battles between right and wrong are our biggest challenges
+      - That wisdom and kindness are more powerful than physical strength
+      - The value of standing up for justice even when facing difficult choices
+    
+  - id: 7
+    category: "Inference"
+    question: "How did Emmanuel demonstrate his principles during the final battle?"
+    answer: "Emmanuel demonstrated his principles by choosing not to fight despite being a former warrior, instead providing wisdom and moral support. He drove John's chariot and offered advice, showing that one can contribute to a just cause without engaging in violence directly."
+    
+  - id: 8
+    category: "Complex Understanding"
+    question: "Compare and contrast the leadership styles of King Aldrich and Alexander based on the story's descriptions."
+    answer: "King Aldrich was described as a good and fair ruler who listened to his people's problems, ensured their basic needs were met, and was universally loved. In contrast, Alexander was portrayed as power-hungry, cruel, and uncompromising, refusing even modest peace offerings and demanding total control of the kingdom and its wealth."
+    
+  - id: 9
+    category: "Complex Understanding"
+    question: "What role did the setting of Salvation Fields play in the story's climax, and why might it be symbolically important?"
+    answer: "Salvation Fields was described as the prophesied location for an important battle, featuring vast green fields with white flowers that glowed in moonlight. Its name and the prophecy surrounding it symbolically represent the brothers' fight for redemption and justice, while the glowing white flowers might symbolize hope and purity of purpose."
+
+metadata:
+  total_questions: 9
+  categories:
+    - Factual Recall
+    - Relationship Understanding
+    - Inference
+    - Complex Understanding
+  purpose: "RAG System Evaluation"
+  source_document: "story_1.txt" 
