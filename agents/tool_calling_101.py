@@ -3,6 +3,7 @@ import json
 from openai import OpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
+from config import llm, print_response
 
 # Simple tool implementations
 def add_numbers(a: float, b: float):
@@ -52,11 +53,11 @@ def create_chat_completion(
     """
     Create a chat completion, process any tool calls, and generate final response.
     """
-    llm = ChatOpenAI(
-        model="gpt-4o-mini",
-        temperature=0,
-        response_format={"type": "json_object"}
-    )
+    # llm = ChatOpenAI(
+    #     model="gpt-4o-mini",
+    #     temperature=0,
+    #     # response_format={"type": "json_object"}
+    # )
     
     # First LLM call to determine if tool is needed
     messages = [

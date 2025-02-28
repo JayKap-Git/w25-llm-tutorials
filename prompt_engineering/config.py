@@ -3,7 +3,10 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv("/Users/jayantkapoor/Documents/GitHub/w25-llm-tutorials/.env")
+
+os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
+os.environ["LANGSMITH_TRACING"] = "true"
 
 # Get API key from environment variable
 api_key = os.getenv('OPENAI_API_KEY')

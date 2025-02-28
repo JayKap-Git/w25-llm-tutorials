@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 from pydantic import BaseModel
 
 # Load environment variables
-load_dotenv()
+load_dotenv("/Users/jayantkapoor/Documents/GitHub/w25-llm-tutorials/.env")
 
 # Initialize the LLM
-llm = ChatOpenAI(model="gpt-4o")
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 class BookRecommendation(BaseModel):
     title: str

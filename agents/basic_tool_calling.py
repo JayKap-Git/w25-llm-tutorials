@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv("/Users/jayantkapoor/Documents/GitHub/w25-llm-tutorials/.env")
 
 # Define our mathematical tools
 @tool

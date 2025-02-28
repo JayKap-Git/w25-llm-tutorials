@@ -1,7 +1,7 @@
 # Load environment variables from .env file
 from dotenv import load_dotenv
 import os
-load_dotenv()
+load_dotenv("/Users/jayantkapoor/Documents/GitHub/w25-llm-tutorials/.env")
 
 print(os.getenv('OPENAI_API_KEY'))
 print(os.getenv('LANGSMITH_TRACING'))
@@ -304,7 +304,7 @@ def evaluate_rag_system(llm, retriever):
     """Evaluate the RAG system using predefined QA pairs"""
     
     # Load QA pairs from YAML file
-    with open("rag/data/qa_pairs_test.yaml", "r") as file:
+    with open("/Users/jayantkapoor/Documents/GitHub/w25-llm-tutorials/rag/data/qa_pairs_test.yaml", "r") as file:
         qa_data = yaml.safe_load(file)
     
     # Get predictions for all questions
@@ -343,7 +343,7 @@ def evaluate_rag_system(llm, retriever):
 
 def main():
     # Initialize the RAG system
-    file_path = "rag/data/story_1.txt"
+    file_path = "/Users/jayantkapoor/Documents/GitHub/w25-llm-tutorials/rag/data/story_1.txt"
     llm, retriever = create_rag_system(file_path)
     
     # Run evaluation
