@@ -29,9 +29,12 @@ def basic_json_parsing():
 
     # Format the prompt and get LLM response with structured output
     structured_llm = llm.with_structured_output(BookRecommendation)
+    print("-"*50)
+    print(structured_llm)
     formatted_prompt = prompt.format_messages()
+    print("-"*50)
+    print(formatted_prompt)
     response = structured_llm.invoke(formatted_prompt)
-    
     print("\nBasic Structured Output Example:")
     print(response)
     print(f"Recommended Book: {response.title} by {response.author}")
